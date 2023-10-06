@@ -1,0 +1,139 @@
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkout-form label{
+    font-size:17px;
+    font-weight: 700;
+}
+
+.checkout-form input{
+    font-size: 14px;
+    padding:5px;
+    font-weight: 400;
+}
+
+.order-details label{
+    font-size:12px;
+    font-weight:700;
+}
+
+.order-details div{
+    font-size:14px;
+    padding: 5px;
+}
+
+.rating-css div {
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #b4afaf;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+
+  .checked{
+    color:#ffd900;
+  }
+
+  .search-bar{
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .ui-menu{
+    z-index:3500 !important;
+  }
+
+  .whatsapp-chat{
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+
+  }
+  
+  
+  /* Footer */
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .checked{
+    color:#ffd900;
+  }
+
+  .carousel-caption{
+    bottom: 220px;
+  }
+
+  .carousel-caption h5{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: 900;
+  }
+
+  .carousel-caption p{
+    font-size: 18px;
+    margin:auto;
+    width: 60%;
+    line-height: 1.9;
+  }
+
+  .carousel-caption a{
+    text-transform: uppercase;
+    background: darkorange;
+    padding: 10px 30px;
+    display: inline-block;
+    color: black;
+    margin-top: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+
+  .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+  
+
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+

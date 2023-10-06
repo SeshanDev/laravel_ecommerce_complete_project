@@ -1,0 +1,257 @@
+
+body{
+    background: linen;
+    
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.cont .box1{
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
+}
+.cont .box2{
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
+}
+.cont .box3{
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
+}
+.cont .box4{
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
+}
+.cont .box1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9A9694;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 10s;
+}
+.cont .box2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#9A9694;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 8s;
+}
+.cont .box3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9A9694;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 6s;
+}
+.cont .box4:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9A9694;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 4s;
+}
+.cont .box1:hover:before
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.cont .box2:hover:before
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.cont .box3:hover:before
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.cont .box4:hover:before
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.cont .box1 h2{
+    color: rgb(14, 13, 13);
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.cont .box2 h2{
+    color: rgb(14, 13, 13);
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.cont .box3 h2{
+    color: rgb(14, 13, 13);
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.cont .box4 h2{
+    color: rgb(14, 13, 13);
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 4em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.cont .box1:hover h2{
+    opacity: 1;
+    color: rgb(14, 13, 13);
+    transform: translateY(-20px);
+}
+.cont .box2:hover h2{
+    opacity: 1;
+    color: rgb(14, 13, 13);
+    transform: translateY(-20px);
+}
+.cont .box3:hover h2{
+    opacity: 1;
+    color: rgb(14, 13, 13);
+    transform: translateY(-20px);
+}
+.cont .box4:hover h2{
+    opacity: 1;
+    color: rgb(14, 13, 13);
+    transform: translateY(-20px);
+}
+.cont .box1 h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.cont .box2 h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.cont .box3 h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+.cont .box4 h3{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}
+
+.cont .box1 p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    text-align:left;
+}
+.cont .box2 p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    text-align:left;
+}
+.cont .box3 p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    text-align:left;
+}
+.cont .box4 p{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+    text-align:left;
+}
+.cont .box1:hover h3,
+.cont .box2:hover h3,
+.cont .box3:hover h3,
+.cont .box4:hover h3,
+.cont .box1:hover p
+{
+    color: rgb(14, 13, 13);
+}
+.cont .box2:hover p
+{
+    color: rgb(14, 13, 13);
+}
+
+.cont .box3:hover p
+{
+    color: rgb(14, 13, 13);
+}
+
+.cont .box4:hover p
+{
+    color: rgb(14, 13, 13);
+}
+
